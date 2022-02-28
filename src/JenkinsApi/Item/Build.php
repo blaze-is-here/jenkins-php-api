@@ -291,7 +291,7 @@ class Build extends AbstractItem
         }
 
         return $this->getJenkins()->post(
-            sprintf('job/%s/%d/stop', $this->_jobName, $this->_buildNumber)
+            sprintf('job/%s/%d/stop', rawurlencode($this->_jobName), $this->_buildNumber)
         );
     }
 }

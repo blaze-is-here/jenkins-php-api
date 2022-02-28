@@ -1,5 +1,5 @@
 {
-  "name": "productsupcom/jenkins-php-api",
+  "name": "blaze-is-here/jenkins-php-api",
   "description": "Library to control Jenkins via PHP through JSON api",
   "homepage": "https://github.com/productsupcom/jenkins-php-api",
   "license": "proprietary",
